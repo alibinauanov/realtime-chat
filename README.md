@@ -6,19 +6,23 @@ That's a realtime chat where you can send message to another user. To test, you 
 ## How to install?
 
 ### Backend
-```npm install express cors axios```
+```npm install express cors axios
+```
 express - http framework for running node servers
 cors - can call this server from anywhere else on the internet
 axios - can make API calls to chatengine.io
 
-npm install --save-dev nodemon
+```npm install --save-dev nodemon
+```
 nodemon is just optional, but it it helps to run node.js server in development mode
 
 ### Frontend
-npm create vite@latest
+```npm create vite@latest
+```
 this command helps to set react project(choose React + JavaScript during setting the project)
 
-npm install
+```npm install
+```
 it helps to install all of the dependencies because it doesn't do that by default(there is no need to do it if you copied and pasted the project)
 
 ## API keys
@@ -31,8 +35,10 @@ Frotend Project ID. frotnent folder -> src -> ChatPage.jsx -> line 5
 Instead of process.env.API_KEY, you should paste your Porject ID.
 
 ## Run
-cd frontent
+```cd frontent
+```
 you need to run the project in froentend folder
 
-npm run dev
-Here we go! Enjor:D
+```npm run dev
+```
+Here we go! Enjoy:D
