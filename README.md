@@ -6,7 +6,7 @@ That's a realtime chat where you can send message to another user. To test, you 
 ## How to install?
 
 ### Backend
-npm install express cors axios
+```npm install express cors axios```
 express - http framework for running node servers
 cors - can call this server from anywhere else on the internet
 axios - can make API calls to chatengine.io
